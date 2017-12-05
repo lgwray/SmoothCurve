@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5542187F1FD62F830045F810 /* points.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5542187E1FD62F830045F810 /* points.txt */; };
 		55C935211FCFB9B800D0D5BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C935201FCFB9B800D0D5BF /* AppDelegate.m */; };
 		55C935241FCFB9B800D0D5BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C935231FCFB9B800D0D5BF /* ViewController.m */; };
 		55C935271FCFB9B800D0D5BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C935251FCFB9B800D0D5BF /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5542187E1FD62F830045F810 /* points.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = points.txt; sourceTree = "<group>"; };
 		55C9351C1FCFB9B800D0D5BF /* SmoothCurve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmoothCurve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C9351F1FCFB9B800D0D5BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55C935201FCFB9B800D0D5BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				55C9352A1FCFB9B800D0D5BF /* LaunchScreen.storyboard */,
 				55C9352D1FCFB9B800D0D5BF /* Info.plist */,
 				55C9352E1FCFB9B800D0D5BF /* main.m */,
+				5542187E1FD62F830045F810 /* points.txt */,
 			);
 			path = SmoothCurve;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55C9352C1FCFB9B800D0D5BF /* LaunchScreen.storyboard in Resources */,
+				5542187F1FD62F830045F810 /* points.txt in Resources */,
 				55C935291FCFB9B800D0D5BF /* Assets.xcassets in Resources */,
 				55C935271FCFB9B800D0D5BF /* Main.storyboard in Resources */,
 			);
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65ET8Y52Q7;
 				INFOPLIST_FILE = SmoothCurve/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thinkSomeClever.jax.SmoothCurve;
@@ -444,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65ET8Y52Q7;
 				INFOPLIST_FILE = SmoothCurve/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thinkSomeClever.jax.SmoothCurve;

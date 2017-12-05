@@ -20,20 +20,39 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeC-ZC-onL">
                                 <rect key="frame" x="314" y="613" width="41" height="34"/>
-                                <state key="normal" title="reset"/>
+                                <state key="normal" title="reset">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.41568627450000001" blue="0.0039215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zf5-mn-lFQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kk6-ld-284">
+                                <rect key="frame" x="20" y="613" width="48" height="34"/>
+                                <state key="normal" title="lineBtn">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.41568627450000001" blue="0.0039215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="lineBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gcu-T0-37C"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="kk6-ld-284" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="09t-k4-Zpn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kk6-ld-284" secondAttribute="bottom" constant="20" id="813-Nd-rYu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OeC-ZC-onL" secondAttribute="trailing" constant="20" id="9g7-Pj-2Bh"/>
                             <constraint firstItem="OeC-ZC-onL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="WIL-fd-XTm"/>
+                            <constraint firstItem="kk6-ld-284" firstAttribute="centerY" secondItem="OeC-ZC-onL" secondAttribute="centerY" id="g7L-da-E4p"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OeC-ZC-onL" secondAttribute="bottom" constant="20" id="gA7-Om-NkU"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kk6-ld-284" secondAttribute="trailing" constant="20" symbolic="YES" id="o2C-Jf-wfF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="lineBtn" destination="kk6-ld-284" id="V0N-7r-O2D"/>
+                        <outlet property="resetBtn" destination="OeC-ZC-onL" id="eCz-5Z-9OB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
